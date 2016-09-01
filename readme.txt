@@ -3,8 +3,8 @@ Contributors: kylephillips
 Donate link: http://locatewp.com/
 Tags: location, store locator, google maps, store map
 Requires at least: 3.8
-Tested up to: 4.4
-Stable tag: 1.5.2
+Tested up to: 4.5
+Stable tag: 1.5.3
 
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -104,6 +104,9 @@ This plugin relies on the Google Maps Javascript API. Please refer to the API do
 
 == Changelog ==
 
+= 1.5.4 =
+* Fix in importer CSV upload that was preventing some csv formatted files from being uploaded
+
 = 1.5.3 =
 * Bug fix where post data not being reset in all locations shortcode
 * Javascript Bug fix in custom map marker insertion
@@ -112,6 +115,7 @@ This plugin relies on the Google Maps Javascript API. Please refer to the API do
 * Callback functions added for all locations map load and click events.
 * Importer improvements: Check added for existing location based on title
 * Shortcode option added to customize results wrapping element.
+* Bug fix for custom results limits not saving.
 
 = 1.5.2 =
 * Bug fix where SQL JOIN limit being exceeded on some servers (Thanks to Jeff Dreher)
